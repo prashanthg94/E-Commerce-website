@@ -1,0 +1,285 @@
+@import url(https://fonts.googleapis.com/css?family=Spartan);
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif;
+    
+
+}
+body{
+    background-color:white;
+   
+} 
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 3px 0px 3px;
+    background:rgb(138, 252, 62);
+    font-weight: 600;
+    position: sticky;
+    z-index: 999;
+    top:0%;
+    left: 0%;
+    bottom: 2%;
+
+}
+.logo{
+    border-radius: 20px;
+}
+
+#navbar1{
+    display: flex;
+    align-items: center;
+justify-content: none; 
+}
+#search {
+    padding: 6px;
+    border: 2px 2px 2px 2px;
+    margin-top: 8px;
+    margin-right: 150px;
+    font-size: 20px;
+    background: transparent;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+#navbar1 li{
+    list-style: none;
+    padding: 0 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family:sans-serif;
+}
+#navbar li a {
+    color: rgb(5, 5, 88);
+    text-decoration: none;
+}
+#navbar li a:hover {
+    color: rgb(184, 13, 41);
+}
+
+ #button {
+    padding: 2px;
+    border:solid;
+    color:rgb(6, 6, 86);
+    font-size: medium;
+    background-color: rgb(22, 237, 130);
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+#button:hover {color:rgb(24, 24, 239);
+    font-size: medium;
+    background-color: white;
+}
+
+#shop {
+ background-image: url(Images/shop\ image\ 1.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+justify-content: center;
+align-content: flex-start;
+display: flex;
+place-items: center;
+box-shadow: rgba(6, 14, 0, 0.2);
+animation:changeImage 30s  infinite;
+}
+
+@keyframes changeImage {
+    0%{
+        background-image: url(Images/shop\ image\ 1.jpg);
+    }
+    25%{
+        background-image: url(/Images/shop\ image\ 2.jpg);
+    }
+    50%{
+        background-image: url(/Images/shop\ 3\ front-view-cyber-monday-composition.jpg);
+    }
+    70%{
+        background-image: url(/Images/shop\ 4\ man-delivering-groceries-customers.jpg);
+    }
+    100%{
+        background-image: url(/Images/shop\ 5grocery-shopping-5987164_1280.jpg);
+    }
+}
+
+#shop button
+{
+    padding: 10px;
+    border:solid;
+    color:rgb(214, 50, 151);
+    font-size: medium;
+    background-color: rgb(1, 22, 22);
+    cursor: pointer;
+    font-weight: 900;
+    
+    
+}
+
+.marq{
+    color: rgb(18, 1, 1);
+        margin-bottom: -5px; 
+    padding-top: 1%;
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: rgba(241, 227, 28, 0.999);
+    font-size: large;
+}
+
+#pc1{
+    padding-top: 5px;
+    text-align: center;
+
+}
+#catogories {
+    padding: 30px;             /* Space inside the box around the content */
+    border: 1px solid black;   /* Border around the content */
+    margin: 10px;              /* Space outside the box */
+    background-color: #f0f0f0; /* Background color of the content */
+    box-shadow: 0px 0px 5px rgb(0, 16, 7);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+    text-shadow: 1px 2px 8px greenyellow;
+     }
+  
+#cat1 {
+    border: 1px solid black;
+    margin: 5px;
+   box-shadow: 0px 2px 3px black; }
+
+  #cat2 {
+      border: 1px solid black;
+      margin: 5px;
+      box-shadow: 0px 2px 3px black; }
+
+#cat3
+{
+    border: 1px solid black;
+    margin: 5px;
+   box-shadow: 0px 2px 3px black; }
+
+   #cat4
+{
+    border: 1px solid black;
+    margin: 5px;
+   box-shadow: 0px 2px 3px black; }
+
+   #cat5
+{
+    border: 1px solid black;
+    margin: 5px;
+   box-shadow: 0px 2px 3px black;
+ }
+
+#cat1 h5,#cat2 h5,#cat3 h5,#cat4 h5,#cat5 h5 {
+    padding: 3px;
+    color: rgb(3, 8, 0);
+    background-color: rgb(22, 247, 22);
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+#cat1 :hover{
+    color: #f0f0f0;
+    background-color: rgb(1, 17, 17);
+}
+
+#cat2 :hover{
+    color: #f0f0f0;
+    background-color: rgb(1, 17, 17);
+}
+#cat3 :hover{
+    color: #f0f0f0;
+    background-color: rgb(1, 17, 17);
+}
+#cat4 :hover{
+    color: #f0f0f0;
+    background-color: rgb(1, 17, 17);
+}
+#cat5 :hover{
+    color: #f0f0f0;
+    background-color: rgb(1, 17, 17);
+}
+
+img :hover{
+    color: #f0f0f0;
+    background-color: rgb(1, 17, 17);
+}
+
+  img {
+    
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+  }
+
+  img:hover {
+    box-shadow: 0px 1px 2px 5px rgba(45, 95, 7, 0.2); /* Shadow effect */
+  }
+
+  #ft1{
+text-align: center;  }
+
+  #product1 h2{
+    text-align: center; 
+
+  }
+#product1  {
+    padding-top: 10px;
+    align-items: center;
+justify-content:space-between;   
+ cursor: pointer;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+
+}
+
+#product2{
+    padding-top: 20px;
+    align-items: center;
+justify-content:space-between;   
+ cursor: pointer;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#product2 h5 {
+    color: green;
+    }
+
+#product1 h5 {
+color: green;
+}
+
+#explore  {
+text-align: center;
+color: #130101;
+background-color: rgb(198, 198, 239);
+cursor: pointer;
+align-items: center;
+box-shadow: 0px 2px 3px rgba(238, 234, 234, 0.376); 
+text-shadow: 1px 2px 20px rgb(8, 12, 1);
+
+
+
+}
+
+footer
+{
+    padding: 25px;
+    border: 1px solid black;
+    margin: 5px;
+   box-shadow: 0px 2px 3px black; 
+   text-align: center;
+}
+
