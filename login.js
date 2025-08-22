@@ -8,7 +8,7 @@ document.getElementById("submit").addEventListener("click", function (e) {
   fetch("https://dummyjson.com/auth/login", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
+    body: JSON.stringif({
       username,
       password,
       expiresInMins: 30
@@ -27,5 +27,6 @@ document.getElementById("submit").addEventListener("click", function (e) {
     console.error(err);
   });
 })
+
 
 
